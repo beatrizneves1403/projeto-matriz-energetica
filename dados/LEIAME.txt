@@ -1,0 +1,9 @@
+Os arquivos de dados não são versionados (veja o .gitignore).
+
+Fonte: SIGA (Sistema de Informações de Geração), geração centralizada.
+Onde baixar: portal de dados abertos da ANEEL (dadosabertos.aneel.gov.br).
+
+1. Salve o CSV baixado nesta pasta como siga-empreendimentos-geracao.csv.
+2. Rode notebooks/01_exploracao.ipynb: ele gera dados/usinas_limpo.csv.
+3. Se a importação no MySQL Workbench der erro de codificação, use a cópia
+   usinas_limpo_ansi.csv, gerada no final do mesmo notebook.
